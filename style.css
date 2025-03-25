@@ -17,3 +17,39 @@ h3 + p{
 .yellow{
     color: yellow;
 }
+.container {
+    width: 60xp;
+    margin: 25px auto;
+    padding: 20px;
+}
+a {
+    cursor: pointer;
+}
+a:visited {
+    color: red;
+}
+li:hover {
+    background-color: red;
+}
+.btn:active {
+    background-color: darkblue;
+    color: white;
+}
+input:focus {
+    border: 2px solid green;
+    background-color: yellow;
+}
+li:last-child {
+    color: red;
+}
+li:nth-child(3) {
+    color: blue;
+}
+.btn {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+input {
+color: gray;
+}
